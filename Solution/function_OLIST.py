@@ -105,7 +105,7 @@ def describe_cat(df,col,
         error_message, str
            Uniquement si le nombre de valeur unique est supérieur à un seuil
     """
-    limit = 25
+    limit = 30
     
     if df[col].value_counts().shape[0] > limit:
         return "To many category ! (over " + str(limit) +")" 
@@ -238,7 +238,7 @@ def plot_score_cluster(X,max_cluster=10,max_iter=300,figsize=(12,10)):
     ax2.plot([i for i in range(2,10)], score_inertie, color='tab:blue' ,marker="o")
     ax2.tick_params(axis='y', labelcolor='tab:blue')
 
-    plt.title("Distortion et silhoutte score")
+    plt.title("Distortion et silhouette score")
 
     fig.tight_layout() 
     plt.show()
@@ -657,7 +657,7 @@ def stability_cluster_one_year(dataframe,
     if plot_score_ari:
         plt.style.use(style_plot)
         plt.figure(figsize=figsize)
-        plt.title("Stabilité des cluster dans le temps")
+        plt.title("Stabilité des clusters dans le temps")
         plt.plot([i if i!=0 else 1  for i in range(0,13,3)],store_score_ari_test,marker="o")
         plt.plot([i if i!=0 else 1  for i in range(0,13,3)],
                  [ceil_stability for i in range(0,13,3)],
