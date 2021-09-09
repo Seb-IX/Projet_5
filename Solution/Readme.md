@@ -2,6 +2,9 @@
 
 This project is about the commercial segmentation of an e-commerce site named "Olist", the goal was to create a segmentation that is easily interpretable by the marketing team.
 
+# Jupyter nb_wiewer :
+
+<a href="https://nbviewer.jupyter.org/github/Seb-IX/Projet_5/blob/main/Solution/POLIST_02_notebookessais.ipynb">Project done here (`POLIST_02_notebookessais.ipynb`)</a>
 
 # Requierement :
 
