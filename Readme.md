@@ -1,4 +1,4 @@
-# Project marketing de segmentation
+# Project "Olist"
 
 <p align="center">
 <img src="https://github.com/Seb-IX/Projet_5/blob/main/Solution/img/OLIST_LOGO.JPG" style="width:600px;">
